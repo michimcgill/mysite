@@ -1,0 +1,238 @@
+body{
+  background-color: white;
+  display: block;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  margin: 5% auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.5rem;
+  color: #66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  /*border-color: #EAF6F6;*/
+  border-color: lightgray;
+  border-width: 5px;
+  width: 5%;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  margin: auto 15px auto 15px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+/*============================= CLASSES =============================*/
+.container-top{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 10%;
+  /*margin-bottom: -20%;*/
+}
+
+.container-middle{
+  position: relative;
+}
+
+.container-bottom{
+  background-color: #66BFBF;
+  color: #EAF6F6;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 0.7rem;
+}
+
+.contact-me{
+  color: #40514E;
+}
+
+.contact-button{
+  color: #40514E;
+  margin: 50px auto 50px auto;
+}
+
+.profile{
+  margin-top: 4rem;
+  margin-bottom: 100px;
+  color: #40514E;
+}
+
+.skills{
+  margin: auto auto 100px auto;
+  color: #40514E;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 30px auto auto auto;
+  text-align: left;
+  line-height: 2;
+}
+
+
+/*.cloud-top{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+
+}
+
+.cloud-bottom{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+  display: none;
+}
+
+.girl-top{
+  border-radius: 5px;
+  position: absolute;
+  width: 10%;
+  height: auto;
+  left: 20%;
+  top: 2%;
+}
+
+.girl-bottom{
+  position: relative;
+  width: 10%;
+  height: auto;
+}
+
+.main-image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: auto;
+  object-fit: scale-down;
+}*/
+
+
+.audiobook-image{
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.birds-image-left{
+  width: 30%;
+  position: absolute;
+  left: 5%;
+  top: 6%;
+}
+
+.birds-image-right{
+  width: 30%;
+  position: absolute;
+  right: 5%;
+  top: 2%;
+}
+
+.coding-image{
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+  background-color: lightblue;
+  border-radius: 50%;
+}
+
+.domains-image{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  background-color: #408AB4;
+  border-radius: 50%;
+}
+
+.hobbies-image{
+  width: 15%;
+}
+
+.landscape-image{
+  width: 50%;
+  height: auto;
+}
+
+.michaela-image{
+  width: 15%;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.reiki-image{
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skills-image{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.software-image{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+
+}
+
+.homes{
+  color: #11999E;
+}
+
+/*==================== BUTTON ==================*/
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 1.2rem;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
